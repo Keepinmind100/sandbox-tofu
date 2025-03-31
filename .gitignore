@@ -1,0 +1,32 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Terraform CLI working directory
+.terraform/
+
+# Terraform lock file (optional – keep if you're pinning versions)
+.terraform.lock.hcl
+
+# Sensitive variable files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Override files (개인 설정용)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Editor/IDE temp files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# MacOS
+.DS_Store
